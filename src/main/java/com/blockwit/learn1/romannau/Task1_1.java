@@ -1,4 +1,4 @@
-package com.example;
+package com.blockwit.learn1.romannau;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -4,7 +4,7 @@
 //   100,109,108,114,101,100,120,200,103,112,107,150
 
 
-package com.blockwit.leran1.RomanNau;
+package com.blockwit.learn1.romannau;
 
 public class Task2 {
     public static void main(String[] args) {

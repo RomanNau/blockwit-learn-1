@@ -1,4 +1,4 @@
-package com.blockwit.leran1.RomanNau;
+package com.blockwit.learn1.romannau;
 
 public class Task1 {
     public static void main(String[] args) {
