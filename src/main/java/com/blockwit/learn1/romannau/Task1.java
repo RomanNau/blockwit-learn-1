@@ -5,10 +5,12 @@ public class Task1 {
         int[] cash = {100, 109, 108, 114, 101, 100, 120, 200, 103, 112, 107, 150};
         int summa = 0;
         for (int i = 0; i < cash.length; i++) {
-        summa+= cash[i] / 12;
-
-            System.out.println("Средняя заработная плата: " + summa);
+            summa = cash[i] + summa;
         }
+        int avageYear = 0;
+        avageYear = summa / 12;
+        System.out.println("Средняя заработная плата: " + avageYear);
+
     }
 }
 
