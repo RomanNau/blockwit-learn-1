@@ -6,8 +6,8 @@ package com.blockwit.learn1.romannau;
 
 public class Task10 {
     public static void main(String[] args) {
-        int a = -19;
-        for (int i = -100; i < a; i = i + 1) {
+        int a = -20;
+        for (int i = -100; i <= a; i++) {
             System.out.println(i);
         }
     }
