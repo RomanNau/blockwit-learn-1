@@ -14,9 +14,10 @@ public class s4t4 {
         System.out.println("Ввести точное кол-во ваших друзей :  ");
         int countfrends = in.nextInt();
         in.nextLine();
-        if(countfrends>0){
 
-        String[] names = new String[countfrends];
+
+        if(countfrends>0){
+            String[] names = new String[countfrends];
         for (int i = 0; i < names.length; i++) {
             System.out.println("Введите имя друга:  ");
             names[i] = in.nextLine();
