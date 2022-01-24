@@ -6,7 +6,7 @@ package com.blockwit.learn1.romannau;
 
 import java.util.Scanner;
 
-public class s4t2 {
+public class S4t2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] names = new String[5];
