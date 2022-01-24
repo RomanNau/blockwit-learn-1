@@ -6,7 +6,7 @@ package com.blockwit.learn1.romannau;
 
 import java.util.Scanner;
 
-public class s4t5 {
+public class S4t5 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int[] count = new int[4];

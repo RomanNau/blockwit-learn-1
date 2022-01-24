@@ -7,11 +7,11 @@ package com.blockwit.learn1.romannau;
 
 import java.util.Scanner;
 
-public class s4t6 {
+public class S4t6 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int[] count = new int[4];
-        for (int i = 0; i< 4; i++) {
+        for (int i = 0; i< count.length; i++) {
             System.out.println("Введите число:  ");
             count[i] = in.nextInt();
         }

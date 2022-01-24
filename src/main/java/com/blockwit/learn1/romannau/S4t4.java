@@ -7,7 +7,7 @@ package com.blockwit.learn1.romannau;
 
 import java.util.Scanner;
 
-public class s4t4 {
+public class S4t4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int countfreds;

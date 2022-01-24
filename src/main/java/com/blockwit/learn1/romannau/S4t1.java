@@ -6,7 +6,7 @@ package com.blockwit.learn1.romannau;
 
 import java.util.Scanner;
 
-public class s4t1 {
+public class S4t1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] yearOfBirth = new int[3];
