@@ -11,23 +11,13 @@ package com.blockwit.learn1.romannau;
 public class Tu1 {
     public static void main(String[] args) {
         Helper obiect = new Helper();
+        Utils sortinMass = new Utils();
         int mass[] = {12, 7, 89, -4, 8, 9};
 
             obiect.printArray(mass);
             System.out.print("\n");
 
-        for(int i = 0; i < mass.length; i++) {
-            int num = mass[i];
-            for (int j = i - 1; j >= 0; j--) {
-                int leftNum = mass[j];
-                if ( num < leftNum) {
-                    mass[j+1] = leftNum;
-                    mass[j] = num;
-                } else {
-                    break;
-                }
-            }
-        }
+            sortinMass.sort(mass);
 
             obiect.printArray(mass);
 
