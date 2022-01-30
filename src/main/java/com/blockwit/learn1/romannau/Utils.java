@@ -10,17 +10,16 @@ public class Utils {
 
     public static void sort(int[] mass){
         for(int i = 0; i < mass.length; i++) {
-            int num = mass[i];                                 //7
+                int num = mass[i];                                 //7
             for (int j = i - 1; j >= 0; j--) {                 //j=0
-                int leftNum = mass[j];                         // left=12
-                if (num < leftNum) {                           // 7 < 12
+                    int leftNum = mass[j];                         // left=12
+                    if (num < leftNum) {                           // 7 < 12
                     mass[j + 1] = leftNum;                     // 7 становиться 12
                     mass[j] = num;                             // 12 становиться 7
-                } else {
+                    } else {
                     break;                                      // выйти из цикла сравнения
-                }
-
-                }
+                    }
             }
+        }
     }
 }
