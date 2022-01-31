@@ -4,7 +4,6 @@
 // Вывести получный массив на экран.
 
 
-
 package com.blockwit.learn1.romannau;
 
 public class S7T1 {
@@ -19,15 +18,15 @@ public class S7T1 {
         System.out.print("\n");
 
         int[] num = new int[8];
-        for(int k = 0; k < num.length; k++) {
+        for (int k = 0; k < num.length; k++) {
             if (k < massivA.length) {
-                num[k] = massivA[k];
-            }
-            if(k > 4) {
-                num[k] = massivB[k-5];
-            }
+                num[k] = massivA[k];                  //num[] = 9, 1, 5, 6, 8
+            } else  {
+                num[k] = massivB[k - 5];
+            }                                 //      0  1  2  3  4
+
         }
         obiects7t1.printArray(num);
     }
-
 }
+
