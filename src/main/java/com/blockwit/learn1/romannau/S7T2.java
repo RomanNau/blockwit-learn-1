@@ -12,6 +12,11 @@ public class S7T2 {
                                                                           // 0  1  2  3  4  5  6  7
         int[] massivB = {0,3,1,5};  //нечетный
 
+        obiects7t2.printArray(massivA);
+        System.out.print("\n");                                                       // I=3 7 6 4 2 2 9 8
+        obiects7t2.printArray(massivB);                                               // I =4 7 6 4 2 2 9 8 6
+        System.out.print("\n");
+
         int[] num = new int[massivA.length + massivB.length];
         for(int i = 0; i < num.length; i++){
             if( (i + 1) % 2 == 0 ) {
