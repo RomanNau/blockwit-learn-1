@@ -19,9 +19,9 @@ public class S7T3 {
         obiects7t3.printArray(arrayB);                                               // I =4 7 6 4 2 2 9 8 6
         System.out.print("\n");                                                      // I=5  7 6 4 2 2 9 8 6 7
 
-                                                    // num[i]    0 1 2 3 4 5 6 7 8
+                                                                                // num[i]    0 1 2 3 4 5 6 7 8
         int[] num = new int[arrayA.length + arrayB.length];
-        for (int i = 0; i < (arrayA.length- arrayB.length) + arrayB.length; i++) {
+        for (int i = 0; i < (arrayA.length- arrayB.length) + arrayB.length && arrayA.length > arrayB.length; i++) {
             if ((i + 1) % 2 == 0) {
                 num[i] = arrayA[i / 2];
             } else {
@@ -29,7 +29,7 @@ public class S7T3 {
             }
         }
         for (int k = 3; k < arrayA.length; k++) {
-            num[k + 3] = arrayA[k];
+            num[k + arrayB.length] = arrayA[k];
 
         }
         obiects7t3.printArray(num);
