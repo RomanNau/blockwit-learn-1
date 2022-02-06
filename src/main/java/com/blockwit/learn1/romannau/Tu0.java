@@ -10,7 +10,7 @@ public class Tu0 {
     public static void main(String[] args) {
         int[] count = {12, 7, 89, -4, 8, 9};
         for (int num : count) {
-            System.out.print( num + "," + " ");
+            System.out.print(num + "," + " ");
         }
         System.out.print("\n");
         int a;
