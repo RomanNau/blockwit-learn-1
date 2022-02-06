@@ -5,7 +5,10 @@
 // Если в какой-то момент из-за нехватки элементов в одном из массивов чередовать будет нельзя, то копировать элементы из оставшегося массива.
 //
 
-package com.blockwit.learn1.romannau;
+package com.blockwit.learn1.romannau.lession6;
+
+
+import com.blockwit.learn1.romannau.Helper;
 
 public class S7T3 {
     public static void main(String[] args) {
