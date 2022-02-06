@@ -3,7 +3,10 @@
 // И скопировть в новый массив элементы первых двух массивов.
 // При этом элементы из первого и второго массивов должны чередоваться в новом массиве.
 
-package com.blockwit.learn1.romannau;
+package com.blockwit.learn1.romannau.lession6;
+
+import com.blockwit.learn1.romannau.Helper;
+
 
 public class S7T2 {
     public static void main(String[] args){

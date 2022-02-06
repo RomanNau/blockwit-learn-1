@@ -4,7 +4,10 @@
 // Вывести получный массив на экран.
 
 
-package com.blockwit.learn1.romannau;
+package com.blockwit.learn1.romannau.lession6;
+
+import com.blockwit.learn1.romannau.Helper;
+
 
 public class S7T1 {
     public static void main(String[] args) {
