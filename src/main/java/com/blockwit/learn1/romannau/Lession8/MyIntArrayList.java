@@ -29,7 +29,7 @@ public class MyIntArrayList {
             num[countStatus] = newValue;
         }
         countStatus = countStatus + 1;
-        return countStatus - 1;
+        return countStatus - 1;         //Возвращает индекс, по которому элемент добавлен.
     }
 
     public int get(int i) {
