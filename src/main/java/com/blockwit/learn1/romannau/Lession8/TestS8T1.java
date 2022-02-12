@@ -13,17 +13,19 @@ public class TestS8T1 {
         Helper testHelper = new Helper();
 
         for (int i = 0; i < 5; i++) {
-            testList.add(i);                                  //формирую первоначальный список из 5-и элементов(значения от 0 до 4)
+            testList.add(i);                                //формирую первоначальный список из 5-и элементов(значения от 0 до 4)
         }
         testHelper.printInList(testList.num);
         System.out.println();
 
         for (int k = 1; k < 30; k++) {
-            int randomValue = rand.nextInt(25);    //добавляю 29 штук случайных чисел от 1 до 30, но но максимальное значение не больше 25
+            int randomValue = rand.nextInt(25);     //добавляю 29 штук случайных чисел от 1 до 30, но но максимальное значение не больше 25
             System.out.println(randomValue);
-            testList.add(randomValue);         // добавил рандомные числа в уже имеющийся список(из пяти элементов)
+            testList.add(randomValue);                    // добавил рандомные числа в уже имеющийся список(из пяти элементов)
         }
-        testHelper.printInList(testList.num); //распечатка полного списка, включая новые рандомные числа и старые
+        testHelper.printInList(testList.num);            //распечатка полного списка, включая новые рандомные числа и старые
+        System.out.println("Седьмое по счету число: "+ testList.get(6));    //получить по индексу число, тест get
+        System.out.println(testList.size());                               //размер списка, то есть сколько ячеек реально заполнено, тест size
 
     }
 }
