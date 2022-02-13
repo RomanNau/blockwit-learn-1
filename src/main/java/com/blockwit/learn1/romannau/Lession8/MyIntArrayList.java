@@ -19,7 +19,7 @@ public class MyIntArrayList {
 
     public int add(int newValue) {
         if (countStatus == num.length) {
-            int[] newNum = new int[num.length + 1];
+            int[] newNum = new int[num.length + 100];
             for (int i = 0; i < num.length; i++) {
                 newNum[i] = num[i];
             }
